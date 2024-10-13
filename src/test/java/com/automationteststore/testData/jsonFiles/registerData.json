@@ -1,0 +1,42 @@
+{
+  "positive": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@example.com",
+      "telephone": "1234567890",
+      "fax": "0987654321",
+      "company": "ABC Ltd",
+      "address1": "123 Main St",
+      "address2": "West Coast 2",
+      "city": "New York",
+      "state": "New York",
+      "postcode": "10001",
+      "country": "United States",
+      "loginName": "johndoe",
+      "password": "Password123",
+      "confirmPassword": "Password123",
+      "newsletterPreference": "Yes"
+    }
+  ],
+  "negative": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@",
+      "telephone": "1234567890",
+      "fax": "0987654321",
+      "company": "ABC Ltd",
+      "address1": "123 Main St",
+      "address2": "West Coast 2",
+      "city": "New York",
+      "state": "New York",
+      "postcode": "10001",
+      "country": "United States",
+      "loginName": "johndoe",
+      "password": "Password123",
+      "confirmPassword": "Password123",
+      "newsletterPreference": "Yes"
+    }
+  ]
+}

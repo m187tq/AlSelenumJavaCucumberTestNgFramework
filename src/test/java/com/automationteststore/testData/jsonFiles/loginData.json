@@ -1,0 +1,28 @@
+[
+  {
+    "loginname": "loginname001",
+    "password": "Password",
+    "expectedResult": "Welcome back"
+  },
+  {
+    "loginname": "datastudioplace",
+    "password": "Manchester1",
+    "expectedResult": "Welcome back"
+  },
+  {
+    "loginname": "webdriverio2",
+    "password": "webdriverio2",
+    "expectedResult": "Welcome back"
+  },
+  {
+    "loginname": "wrongLoginname",
+    "password": "Manchester001",
+    "expectedResult": "\nError: Incorrect login or password provided."
+  },
+  {
+    "loginname": "webdriverio2",
+    "password": "WrongPassword123",
+    "expectedResult": "\nError: Incorrect login or password provided."
+  }
+]
+

@@ -1,0 +1,24 @@
+[
+  {
+    "myAccountLink": "My Account",
+    "loginLink": "Login",
+    "loginName": "admin001@admin.com",
+    "password": "WrongPassword",
+    "loginErrorMsg": "Error: Incorrect login or password provided."
+  },
+  {
+    "myAccountLink": "My Account",
+    "LoginLink": "Login",
+    "loginName": "wrongEmail002@admin.com",
+    "password": "Password222",
+    "loginErrorMsg": "Error: Incorrect login or password provided."
+  },
+  {
+    "myAccountLink": "My Account",
+    "LoginLink": "Login",
+    "loginName": "wrongEmail003@admin.com",
+    "password": "WrongPassword",
+    "loginErrorMsg": "Error: Incorrect login or password provided."
+  }
+]
+

@@ -1,0 +1,17 @@
+[
+  {
+    "myAccountLink": "My Account",
+    "loginLink": "Login",
+    "loginName": "webdriverio2",
+    "password": "webdriverio2",
+    "loginSuccessConfirmationMsg": "My Account"
+  },
+  {
+    "myAccountLink": "My Account",
+    "LoginLink": "Login",
+    "emailAddress": "webdriverio2",
+    "password": "webdriverio2",
+    "loginSuccessConfirmationMsg": "My Account"
+  }
+]
+

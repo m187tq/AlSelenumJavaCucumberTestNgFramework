@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automationteststore.com">
+
+    <listeners>
+        <listener class-name="com.automationteststore.base.extent_listeners.Listeners"/>
+        <listener class-name="com.automationteststore.base.extentlisteners.ExtentListeners"/>
+        <listener class-name="com.automationteststore.base.listeners.MyListeners"/>
+        <!--  <listener class-name="com.automationteststore.base.listeners_extent.ExtentListener"/>-->
+
+    </listeners>
+
+    <test thread-count="2" name="automationteststore">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.automationteststore.cucumber.runners.Runner"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
